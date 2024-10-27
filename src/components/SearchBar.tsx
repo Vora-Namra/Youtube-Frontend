@@ -1,6 +1,6 @@
 export const SearchBar = () => {
     return <div className="w-2/4">
-        <form>
+        
             <div className="w-96 flex text-gray-900 border border-gray-500 rounded-3xl p-1 pl-3 text-sm pr-2">
                 <input  id="default-search" className="w-full bg-slate-950 text-white border-none outline-none" placeholder="Search" required />
                 <button className="bg-slate-950 text-gray-400 font-bold py-2 px-4 rounded inline-flex items-center">
@@ -9,6 +9,5 @@ export const SearchBar = () => {
                     </svg>
                 </button>
             </div>
-        </form>
     </div>
 }
